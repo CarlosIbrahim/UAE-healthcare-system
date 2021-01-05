@@ -551,7 +551,7 @@ if password == 'MsBa%%42%%':
 
 
 elif password != '123456':
-    st.write('Please Enter the Correct Password from the Sidebar to display the Analysis')
+    st.warning('Please Enter the Correct Password from the Sidebar to display the Analysis')
 
 #hide the powered by streamlit and the right icon
 hide_streamlit_style = """
