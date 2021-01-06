@@ -558,8 +558,8 @@ if password == 'MsBa%%42%%':
         st.sidebar.write('The data used in this analysis are downloaded from Bayanat.ae website https://bayanat.ae/')
 
 
-elif password != '123456':
-    st.write('Please Enter the Correct Password from the Sidebar to display the Analysis')
+elif password != 'MsBa%%42%%':
+    st.warning('Please Enter the Correct Password from the Sidebar to display the Analysis')
 
 #hide the powered by streamlit and the right icon
 hide_streamlit_style = """
