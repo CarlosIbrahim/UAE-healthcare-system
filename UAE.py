@@ -1,3 +1,4 @@
+python3 pip install --upgrade pip
 import pandas as pd
 import numpy as np
 import streamlit as st
